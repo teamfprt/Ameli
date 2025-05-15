@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: "Ruwudu", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(https://www.monginisbakery.com/images/banner/a0f0b677-541c-42b4-8e6b-9d8549c74b48.png);
+    background-repeat: repeat;
+    background-size: contain;
+    direction: ltr;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: rgba(0, 0, 0, 0.1) 2px solid;
+    border-radius: 10px;
+    box-shadow:0 0 20px 5px rgb(0, 0, 0);
+    backdrop-filter: blur(4px);
+    padding: 50px;
+}
+form::selection{background-color:rgb(222 184 75); 
+color: white;
+}
+input{
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.413);
+    border: 1px black solid;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    width: 230px;
+}
+
+.sub{
+    background-color: #c9e9ed91;
+    transition: 0.7s ease;
+}
+.sub:hover{
+    background-color: #cbeaeb;
+}
+form a {
+    text-decoration: none;
+    color: rgb(206 161 26);
+    font-size: 20px;
+    margin-top: 10px;
+}
+form a:hover{
+    text-decoration:underline;
+    color: rgb(57 101 160);
+
+}
+form img{
+    width: 200px;
+}
+/* .form{
+    position: relative;
+    bottom: 70px;
+} */
+.logtool img{
+    width: 50px;
+    display: inline-block;
+    margin: 15px;
+    transition: 0.1s ease;
+}
+.logtool img:hover{
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}

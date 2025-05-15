@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    direction: rtl;
+    background-image: url(https://www.monginisbakery.com/images/banner/a0f0b677-541c-42b4-8e6b-9d8549c74b48.png);
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: system-ui;
+}
+body::selection{
+    background-color:bisque;
+}
+header{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+h1,h2,h3,h6{
+    color: #6F3C2E
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+a:hover{
+    color: #eac457
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: rgba(250, 235, 215, 0.488);;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 210px;
+    backdrop-filter: blur(4px);
+}
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+.menu-mob{
+    display: none;
+}
+.nav-icons img{
+    margin-left: 10px;
+    width: 30px;
+    transition: 0.2s ease;
+    border: 1px transparent solid;
+    border-radius:50%;
+}
+.nav-icons img:hover{
+    transform: scale(1.2);
+    box-shadow: -1px 1px 2px;
+}
+/* ////////////////////////////////////////////welcome///////////////////////////// */
+.welcome{
+    background: linear-gradient(#fbf3ea, #ffffff00);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 650px;
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    position: absolute;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.welcome-text p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.welcome-text h1{
+    color: #deb94e;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ////////////////////////////////////////////////////////achieves///////////////////////////////////// */
+.achieves{
+    background-image: linear-gradient(#f8e5c3,transparent);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.achieves>div>p{
+    text-align: center;
+    color: #423C33;
+    font-size: 30px;
+}
+.achieves>div>h2{
+    text-align: center;
+    color: #423C33;
+    font-size: 30px;
+}
+/* /////////////////////////////////////////////trip//////////////////////////////////// */
+.trip{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:300px 0px  ;
+
+}
+.trip-img img{
+    width: 500px;
+    border-radius: 5px;
+    height: 380px;
+}
+.trip-text{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.trip-text h2{
+    margin: 30px 0;
+}
+/* /////////////////////////////////////////////our-work//////////////////////////////////////////// */
+.our-work{
+    width: 40%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px auto;
+}
+.div-our-work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.div-our-work p , h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+/* /////////////////////////////////////////////photos/////////////////////////////////////// */
+.photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:300px 0px  ;
+}
+.photos img{
+    width: 500px;
+    border-radius: 5px;
+    height: 380px;
+}
+.photos .text-p,.text-h2{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.photos .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* /////////////////////////////////////////////ending////////////////////////////////////////// */
+.ending .ele{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    text-align: center;
+}
+.ending .ele p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #423c33;
+    margin: 20px 0px;
+}
+.ending .ele img{
+    width: 100px;
+}
+.ending h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.ending{
+    margin: 300px 0px;
+}
+#contact{
+    margin: 300px 0px;
+}
+#contact .ele{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 100px 0px;
+        text-align: center;
+}
+#contact .ele p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #423c33;
+    margin: 20px 0px;
+}
+#contact .ele img{
+    width: 100px;
+}
+#contact h2{
+    text-align: center;
+    font-size: 30px;
+
+}
+#contact a{
+    font-size: 20px;
+    font-weight: 600;
+}
+#contact{
+    margin: 130px 0px;
+}
+
+/* //////////////////////////////////////////footer//////////////////////////////////// */
+footer
+{
+    background: rgba(250, 235, 215, 0.526);
+    padding: 40px 0px 0px;
+}
+footer .ftbigdiv1
+{
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    align-content: center;
+    padding: 0px 210px 15px;
+}
+footer .ftbigdiv1 h2{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+footer .ftbigdiv1 h3{
+    padding:10px 0px;
+}
+footer .ftbigdiv1 p{
+    width: 250px;
+}
+footer .ftbigdiv1 .ul-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .ftbigdiv1 .ul-media{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+footer .ftbigdiv1 .ul-media img{
+    margin-left: 10px;
+    width: 30px;
+    transition: 0.2s ease;
+    border: 1px transparent solid;
+    border-radius:50%;
+}
+footer .ftbigdiv1 .ul-media img:hover{
+    transform: scale(1.2);
+    box-shadow: -1px 1px 2px black;
+}
+footer .ftbigdiv2
+{
+    display: flex;
+    padding: 20px 210px;
+    justify-content: space-between;
+}
+footer .ftbigdiv2 p
+{
+    width: 325px;
+}
+footer .ftbigdiv2 div span{
+    color: #6F3C2E;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////// */
+/* Large Screens */
+@media (min-width:1200px) {
+    .navbar{
+        display: none;
+    }
+    }
+    /* Medium Screens */
+    @media(min-width:992px) {
+    
+    }
+    /* Small Screens */
+    @media (min-width:768px) and (max-width:991px) {
+    
+    }
+    /* Mobile */
+    @media (max-width:767px) {
+        header nav .logo{
+            justify-self: center;
+        }
+        nav{
+            padding: 0;
+            display: grid;
+            grid: space-around;
+            grid-template-columns: repeat(3, 128px);
+        }
+        .ul-nav{
+            display: none;
+        }
+        .navbar {
+            padding:0;
+            position: relative;
+          }
+          
+          .menu-btn {
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+          }
+          .menu-btn img{
+            position: relative;
+          }
+    
+          .popup-menu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            left: 10px;
+            background-color: #222;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 1000;
+          }
+          
+          .popup-menu a {
+            display: block;
+            color: white;
+            padding: 8px 0;
+            text-decoration: none;
+          }
+          
+          .popup-menu a:hover {
+            color:#eac457;
+          }
+          
+          .close-btn {
+            background-color: red;
+            color: white;
+            border: none;
+            margin-top: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+            
+       }
+       #popupMenu.popup-menu{
+        display: block;
+        width: 110px;
+        background-color: rgb(250 235 215 / 88%);
+        position: absolute;
+        right: 0px;
+       }
+       #popupMenu.popup-menu ul li a{
+        color: black;
+        transition: 0.2s ease;
+       }
+       #popupMenu.popup-menu ul li a:hover{
+        color: #eac457;
+       }
+       footer .ftbigdiv1{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+       }
+       footer .ftbigdiv2{
+        padding: 0;
+        display: block;
+        text-align: center;
+       }
+       footer .ftbigdiv2 p
+    {
+        margin: 0 auto;
+        width: 325px;
+    }
+       footer .ftbigdiv2 div{
+        padding: 15px;
+       }
+       .comp{
+        display: none;
+       }
+    }
+    

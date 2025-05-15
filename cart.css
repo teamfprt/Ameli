@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    direction: rtl;
+    background-image: url(https://www.monginisbakery.com/images/banner/a0f0b677-541c-42b4-8e6b-9d8549c74b48.png);
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: system-ui;
+}
+main{
+    min-height: 600px;
+}
+h1,h2,h3,h6{
+    color: #6F3C2E
+}
+ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+}
+a:hover{
+    color: #eac457
+}
+.logo{
+    width: 100px;
+}
+nav{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 210px;
+}
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+.menu-mob{
+    display: none;
+}
+.nav-icons img{
+    margin-left: 10px;
+    width: 30px;
+    transition: 0.2s ease;
+    border: 1px transparent solid;
+    border-radius:50%;
+}
+.nav-icons img:hover{
+    transform: scale(1.2);
+    box-shadow: -1px 1px 2px;
+}
+.path{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.logo{
+    width: 90px;
+    height: fit-content;
+}
+  /* //////////////////////////////////////Table////////////////////////////////////// */
+table{
+    box-shadow: #000000 2px 2px 10px;
+    color: #6f3c2e;
+    width: 1000px;
+    margin: 40px auto;
+    justify-content: center;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+}
+th{
+    background-color: rgba(250, 235, 215, 0.559);
+    color: #6f3c2e;
+    padding: 10px;
+}
+td{
+    text-align:center;
+    backdrop-filter: blur(2px);
+    padding: 15px 0px;
+} 
+#emptyMsg {
+    text-align: center;
+    margin-top: 40px;
+    color: #010101;
+}
+/* //////////////////////////////////////////footer//////////////////////////////////// */
+footer
+{
+    background: rgba(250, 235, 215, 0.526);
+    padding: 40px 0px 0px;
+    margin-top: 30px;
+}
+footer .ftbigdiv1
+{
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    align-content: center;
+    padding: 0px 210px 15px;
+}
+footer .ftbigdiv1 h2{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+footer .ftbigdiv1 h3{
+    padding:10px 0px;
+}
+footer .ftbigdiv1 p{
+    width: 250px;
+}
+footer .ftbigdiv1 .ul-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer .ftbigdiv1 .ul-media{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+}
+
+footer .ftbigdiv1 .ul-media img{
+    margin-left: 10px;
+    width: 30px;
+    transition: 0.2s ease;
+    border: 1px transparent solid;
+    border-radius:50%;
+}
+footer .ftbigdiv1 .ul-media img:hover{
+    transform: scale(1.2);
+    box-shadow: -1px 1px 2px black;
+}
+footer .ftbigdiv2
+{
+    display: flex;
+    padding: 20px 210px;
+    justify-content: space-between;
+}
+footer .ftbigdiv2 p
+{
+    width: 325px;
+}
+footer .ftbigdiv2 div span{
+    color: #6F3C2E;
+    font-weight: bold;
+}
